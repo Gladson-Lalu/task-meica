@@ -10,6 +10,7 @@ const Banner = () => {
         width={1113.6}
         height={405}
         className="h-auto w-full"
+        priority
       />
     </section>
   );

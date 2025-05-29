@@ -114,7 +114,7 @@ const Header = () => {
           alt="MEICA EXPO 2025 Logo"
           width={268.8}
           height={78.28}
-          className="h-auto"
+          className="h-[62.624px] w-auto"
           priority
         />
         <div className="flex flex-col items-center justify-start  h-full gap-1.5 mt-5">
@@ -124,8 +124,8 @@ const Header = () => {
               src="/csc-logo.png"
               alt="UAE Security Council"
               width={201.6}
-              height={68}
-              className="h-auto w-[211.6px] mt-1.5"
+              height={68.28}
+              className="h-[54.62px] w-auto mt-1.5"
             />
           </div>
         </div>

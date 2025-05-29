@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { ChevronRight } from "lucide-react";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Banner from "./components/Banner";
