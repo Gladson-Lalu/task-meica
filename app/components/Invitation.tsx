@@ -20,9 +20,9 @@ const Invitation = () => {
           </div>
         </div>
 
-        <div className="scale-90 relative top-[105px]  flex flex-col md:flex-row animate animate-fade-in-up">
-          <div className="right-0 top-20 relative origin-top-right bg-[#10A2C9]/[0.28] rounded-[40px] w-full border flex flex-col-reverse md:flex-row justify-between clip-polygon h-[600px] bg-cover transition-all duration-500 hover:shadow-xl hover:bg-[#10A2C9]/[0.35]">
-            <div className="flex flex-col gap-4 px-16 py-16 w-[70%] text-sm font-normal uppercase">
+        <div className="scale-90 relative top-[105px] flex flex-col animate animate-fade-in-up">
+          <div className="right-0 top-20 relative origin-top-right bg-[#10A2C9]/[0.28] rounded-[40px] w-full border clip-polygon h-[600px] bg-cover transition-all duration-500 hover:shadow-xl hover:bg-[#10A2C9]/[0.35]">
+            <div className="flex flex-col justify-center gap-4 px-16 py-16 w-[70%] md:text-sm font-normal uppercase text-xs">
               <p>
                 On behalf of the Executive Committee, I would like to invite you
                 to attend and participate at the 6th Annual Middle East

@@ -81,6 +81,22 @@ const config = {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-5px)" },
         },
+        "scroll-fade-up": {
+          "0%": { opacity: "0", transform: "translateY(30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "scroll-fade-down": {
+          "0%": { opacity: "0", transform: "translateY(-30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "scroll-fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "scroll-scale-in": {
+          "0%": { opacity: "0", transform: "scale(0.9)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -95,6 +111,10 @@ const config = {
         "scale-in": "scale-in 0.3s ease-out forwards",
         "float": "float 4s ease-in-out infinite",
         "fadeInDown": "fadeInDown 0.3s ease-out forwards",
+        "scroll-fade-up": "scroll-fade-up 0.6s ease-out forwards",
+        "scroll-fade-down": "scroll-fade-down 0.6s ease-out forwards",
+        "scroll-fade-in": "scroll-fade-in 0.6s ease-out forwards",
+        "scroll-scale-in": "scroll-scale-in 0.6s ease-out forwards",
       },
     },
   },

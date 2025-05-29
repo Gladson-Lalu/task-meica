@@ -109,8 +109,8 @@ const cardData = {
 function Participation() {
   return (
     <div className="bg-white flex items-center justify-center p-4 my-32 md:p-10">
-      <div className="w-full max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-10">
+      <div className="w-full">
+        <div className="grid grid-cols-5 gap-x-6 gap-y-10 min-ga">
           <Card
             title={cardData.exhibitors.title}
             description={cardData.exhibitors.description}
