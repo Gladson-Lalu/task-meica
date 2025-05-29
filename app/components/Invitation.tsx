@@ -6,7 +6,7 @@ const Invitation = () => {
     <section className="mt-32 w-full relative">
       <div className="mx-auto">
         <div className="absolute top-0 left-0 right-40">
-          <div className=" text-right h-full">
+          <div className="text-right h-full">
             <span className="text-secondary 2xl:text-[48px] xl:text-[44px] lg:text-[44px] text-[40px] font-bold font-Roboto uppercase">
               OFFICIAL INVITATION
               <br />
@@ -15,18 +15,18 @@ const Invitation = () => {
               MEICA EXPO 2025 6TH EDITION
             </span>
           </div>
-          <div className="left-0 top-0 absolute justify-start text-[#0889A5]/5  2xl:text-[227.16px] xl:text-[220px] text-[200px] font-semibold font-['Inter'] leading-[174px]">
+          <div className="left-0 top-0 absolute justify-start text-[#0889A5]/5 2xl:text-[227.16px] xl:text-[220px] text-[200px] font-semibold font-['Inter'] leading-[174px]">
             MEICA EXPO
           </div>
         </div>
 
-        <div className="scale-90 relative translate-y-[13%] flex flex-col md:flex-row">
-          <div className="right-0 top-20 relative origin-top-right bg-[#10A2C9]/[0.28] rounded-[40px] w-full border flex flex-col-reverse md:flex-row justify-between clip-polygon   h-[600px] bg-cover">
+        <div className="scale-90 relative top-[105px]  flex flex-col md:flex-row animate animate-fade-in-up">
+          <div className="right-0 top-20 relative origin-top-right bg-[#10A2C9]/[0.28] rounded-[40px] w-full border flex flex-col-reverse md:flex-row justify-between clip-polygon h-[600px] bg-cover transition-all duration-500 hover:shadow-xl hover:bg-[#10A2C9]/[0.35]">
             <div className="flex flex-col gap-4 px-16 py-16 w-[70%] text-sm font-normal uppercase">
               <p>
                 On behalf of the Executive Committee, I would like to invite you
                 to attend and participate at the 6th Annual Middle East
-                Instrumentation Cybersecurity and Automation Expo. The event is
+                Instrumentation Cybersecurity and Automation Expo. The event i
                 scheduled to take place on 16th – 18th September 2025 in Abu
                 Dhabi, UAE. The upcoming event will gather the technical experts
                 from all over the world to discuss the latest technology related

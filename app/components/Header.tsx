@@ -24,8 +24,9 @@ const DropdownSubItem = ({
 const ConferenceDropdownContent = () => {
   const subItemText =
     "MEICA EXPO 2025 Was The First Instrumentation Control And Automation Expo In";
+
   return (
-    <div className="absolute top-full left-0 right-0 w-full bg-white shadow-xl rounded-b-lg p-6 z-40 mt-[1px]">
+    <div className="absolute top-full left-0 right-0 w-full bg-white shadow-xl rounded-b-lg p-6 z-40 mt-[1px] dropdown-menu">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-4">
         <div className="md:col-span-1">
           <h3 className="text-xl font-bold text-primary mb-1.5">CONFERENCE</h3>
@@ -85,6 +86,21 @@ const NavItem = ({
     </div>
   );
 };
+// Add CSS for dropdown animation
+const dropdownAnimationStyle = `
+  .dropdown-menu {
+    opacity: 0;
+    transform: translateY(-10px) scaleY(0.98);
+    transform-origin: top center;
+    animation: dropdownAppear 0.3s ease-out forwards;
+  }
+  
+  @keyframes dropdownAppear {
+    0% { opacity: 0; transform: translateY(-10px) scaleY(0.98); }
+    100% { opacity: 1; transform: translateY(0) scaleY(1); }
+  }
+`;
+
 const Header = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
@@ -108,6 +124,8 @@ const Header = () => {
 
   return (
     <header className="relative border rounded-lg mx-4 my-4 px-8 lg:mx-6 h-[170px] pt-8 pb-10 transition-all duration-200">
+      <style dangerouslySetInnerHTML={{ __html: dropdownAnimationStyle }} />
+
       <div className="grid grid-cols-3 items-center ">
         <Image
           src="/medica-logo.png"

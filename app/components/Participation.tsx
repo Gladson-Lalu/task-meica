@@ -16,7 +16,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`relative flex flex-col items-start justify-end ${className}`}
+      className={`relative flex flex-col items-start justify-end transform transition-all duration-300 hover:scale-[1.03] ${className}`}
       style={{
         backgroundImage: `url(/${svgBgName}.svg)`,
         backgroundSize: "100% 100%", // Stretch SVG to fill
@@ -51,7 +51,7 @@ const RegisterNowBlock = ({
 }) => {
   return (
     <div
-      className={`relative flex flex-col justify-center ${className}`}
+      className={`relative flex flex-col justify-center transform transition-all duration-300 hover:scale-[1.03] ${className}`}
       style={{
         backgroundImage: `url(/${svgBgName}.svg)`,
         backgroundSize: "100% 100%", // Stretch SVG to fill
@@ -108,7 +108,7 @@ const cardData = {
 
 function Participation() {
   return (
-    <div className=" bg-white flex items-center justify-center p-4 my-32 md:p-10">
+    <div className="bg-white flex items-center justify-center p-4 my-32 md:p-10">
       <div className="w-full max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-10">
           <Card
